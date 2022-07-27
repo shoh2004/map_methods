@@ -6,14 +6,14 @@ change it to surname
 
 
 void main() {
-  print(func({'name': 'laccete', 'shoh': 'silver'}));
+  print(func({'name': 'laccete', 'shoh_dart': 'silver'}));
 }
 
 Map func(Map data) {
-  String w = data['shoh'];
-  data.remove('shoh');
+  String w = data['shoh_dart'];
+  data.remove('shoh_dart');
   data["surname"] = w;
   //your code here
 
   return data;
-} 
+}  
