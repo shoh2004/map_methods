@@ -10,10 +10,10 @@ void main() {
 }
 
 Map func(Map data) {
-  String w = data['shoh_dart'];
+  String func = data['shoh_dart'];
   data.remove('shoh_dart');
-  data["surname"] = w;
+  data["surname"] = func;
   //your code here
 
   return data;
-}  
+}   
