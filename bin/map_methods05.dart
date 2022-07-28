@@ -5,8 +5,10 @@ change it to surname
 */
 
 void main() {
-  print(func({'name': 'laccete', 'last_name': 'silver'}));
-} 
+  print(func({'name': 'John', 'surname': 'Kerry'}));
+  
+}
+ 
 
 Map func(Map <String, String>data) {
   data.remove('last_name');
