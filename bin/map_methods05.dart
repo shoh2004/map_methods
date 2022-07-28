@@ -8,10 +8,9 @@ void main() {
   print(func({'name': 'laccete', 'last_name': 'silver'}));
 } 
 
-Map func(Map data) {
-  Map f = data['last_name'];
+Map func(Map <String, String>data) {
   data.remove('last_name');
-  data["surname"] = f;
+  data["surname"] ='last_name';
 
 return data;
 } 
